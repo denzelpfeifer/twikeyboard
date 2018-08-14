@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA06644221239B8D00468CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06644121239B8D00468CD3 /* AppDelegate.swift */; };
+		CA06644421239B8D00468CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06644321239B8D00468CD3 /* ViewController.swift */; };
+		CA06644721239B8D00468CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA06644521239B8D00468CD3 /* Main.storyboard */; };
+		CA06644921239B8E00468CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA06644821239B8E00468CD3 /* Assets.xcassets */; };
+		CA06644C21239B8E00468CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA06644A21239B8E00468CD3 /* LaunchScreen.storyboard */; };
+		CA06645721239B8E00468CD3 /* twikeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06645621239B8E00468CD3 /* twikeyboardTests.swift */; };
+		CA06646221239B8E00468CD3 /* twikeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06646121239B8E00468CD3 /* twikeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA06645321239B8E00468CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA06643621239B8D00468CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA06643D21239B8D00468CD3;
+			remoteInfo = twikeyboard;
+		};
+		CA06645E21239B8E00468CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA06643621239B8D00468CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA06643D21239B8D00468CD3;
+			remoteInfo = twikeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA06643E21239B8D00468CD3 /* twikeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twikeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA06644121239B8D00468CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA06644321239B8D00468CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA06644621239B8D00468CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA06644821239B8E00468CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA06644B21239B8E00468CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA06644D21239B8E00468CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA06645221239B8E00468CD3 /* twikeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twikeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA06645621239B8E00468CD3 /* twikeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twikeyboardTests.swift; sourceTree = "<group>"; };
+		CA06645821239B8E00468CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twikeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA06646121239B8E00468CD3 /* twikeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twikeyboardUITests.swift; sourceTree = "<group>"; };
+		CA06646321239B8E00468CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA06643B21239B8D00468CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06644F21239B8E00468CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06645A21239B8E00468CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA06643521239B8D00468CD3 = {
+			isa = PBXGroup;
+			children = (
+				CA06644021239B8D00468CD3 /* twikeyboard */,
+				CA06645521239B8E00468CD3 /* twikeyboardTests */,
+				CA06646021239B8E00468CD3 /* twikeyboardUITests */,
+				CA06643F21239B8D00468CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA06643F21239B8D00468CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA06643E21239B8D00468CD3 /* twikeyboard.app */,
+				CA06645221239B8E00468CD3 /* twikeyboardTests.xctest */,
+				CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA06644021239B8D00468CD3 /* twikeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CA06644121239B8D00468CD3 /* AppDelegate.swift */,
+				CA06644321239B8D00468CD3 /* ViewController.swift */,
+				CA06644521239B8D00468CD3 /* Main.storyboard */,
+				CA06644821239B8E00468CD3 /* Assets.xcassets */,
+				CA06644A21239B8E00468CD3 /* LaunchScreen.storyboard */,
+				CA06644D21239B8E00468CD3 /* Info.plist */,
+			);
+			path = twikeyboard;
+			sourceTree = "<group>";
+		};
+		CA06645521239B8E00468CD3 /* twikeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA06645621239B8E00468CD3 /* twikeyboardTests.swift */,
+				CA06645821239B8E00468CD3 /* Info.plist */,
+			);
+			path = twikeyboardTests;
+			sourceTree = "<group>";
+		};
+		CA06646021239B8E00468CD3 /* twikeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA06646121239B8E00468CD3 /* twikeyboardUITests.swift */,
+				CA06646321239B8E00468CD3 /* Info.plist */,
+			);
+			path = twikeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA06643D21239B8D00468CD3 /* twikeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06646621239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboard" */;
+			buildPhases = (
+				CA06643A21239B8D00468CD3 /* Sources */,
+				CA06643B21239B8D00468CD3 /* Frameworks */,
+				CA06643C21239B8D00468CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twikeyboard;
+			productName = twikeyboard;
+			productReference = CA06643E21239B8D00468CD3 /* twikeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA06645121239B8E00468CD3 /* twikeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06646921239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboardTests" */;
+			buildPhases = (
+				CA06644E21239B8E00468CD3 /* Sources */,
+				CA06644F21239B8E00468CD3 /* Frameworks */,
+				CA06645021239B8E00468CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA06645421239B8E00468CD3 /* PBXTargetDependency */,
+			);
+			name = twikeyboardTests;
+			productName = twikeyboardTests;
+			productReference = CA06645221239B8E00468CD3 /* twikeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA06645C21239B8E00468CD3 /* twikeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06646C21239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboardUITests" */;
+			buildPhases = (
+				CA06645921239B8E00468CD3 /* Sources */,
+				CA06645A21239B8E00468CD3 /* Frameworks */,
+				CA06645B21239B8E00468CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA06645F21239B8E00468CD3 /* PBXTargetDependency */,
+			);
+			name = twikeyboardUITests;
+			productName = twikeyboardUITests;
+			productReference = CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA06643621239B8D00468CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "K'tyah Point";
+				TargetAttributes = {
+					CA06643D21239B8D00468CD3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CA06645121239B8E00468CD3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CA06643D21239B8D00468CD3;
+					};
+					CA06645C21239B8E00468CD3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CA06643D21239B8D00468CD3;
+					};
+				};
+			};
+			buildConfigurationList = CA06643921239B8D00468CD3 /* Build configuration list for PBXProject "twikeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA06643521239B8D00468CD3;
+			productRefGroup = CA06643F21239B8D00468CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA06643D21239B8D00468CD3 /* twikeyboard */,
+				CA06645121239B8E00468CD3 /* twikeyboardTests */,
+				CA06645C21239B8E00468CD3 /* twikeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA06643C21239B8D00468CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06644C21239B8E00468CD3 /* LaunchScreen.storyboard in Resources */,
+				CA06644921239B8E00468CD3 /* Assets.xcassets in Resources */,
+				CA06644721239B8D00468CD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06645021239B8E00468CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06645B21239B8E00468CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA06643A21239B8D00468CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06644421239B8D00468CD3 /* ViewController.swift in Sources */,
+				CA06644221239B8D00468CD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06644E21239B8E00468CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06645721239B8E00468CD3 /* twikeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06645921239B8E00468CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06646221239B8E00468CD3 /* twikeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA06645421239B8E00468CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA06643D21239B8D00468CD3 /* twikeyboard */;
+			targetProxy = CA06645321239B8E00468CD3 /* PBXContainerItemProxy */;
+		};
+		CA06645F21239B8E00468CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA06643D21239B8D00468CD3 /* twikeyboard */;
+			targetProxy = CA06645E21239B8E00468CD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA06644521239B8D00468CD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA06644621239B8D00468CD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA06644A21239B8E00468CD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA06644B21239B8E00468CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA06646421239B8E00468CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA06646521239B8E00468CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA06646721239B8E00468CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA06646821239B8E00468CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA06646A21239B8E00468CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twikeyboard.app/twikeyboard";
+			};
+			name = Debug;
+		};
+		CA06646B21239B8E00468CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twikeyboard.app/twikeyboard";
+			};
+			name = Release;
+		};
+		CA06646D21239B8E00468CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twikeyboard;
+			};
+			name = Debug;
+		};
+		CA06646E21239B8E00468CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twikeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twikeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA06643921239B8D00468CD3 /* Build configuration list for PBXProject "twikeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA06646421239B8E00468CD3 /* Debug */,
+				CA06646521239B8E00468CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA06646621239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA06646721239B8E00468CD3 /* Debug */,
+				CA06646821239B8E00468CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA06646921239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA06646A21239B8E00468CD3 /* Debug */,
+				CA06646B21239B8E00468CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA06646C21239B8E00468CD3 /* Build configuration list for PBXNativeTarget "twikeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA06646D21239B8E00468CD3 /* Debug */,
+				CA06646E21239B8E00468CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA06643621239B8D00468CD3 /* Project object */;
+}
