@@ -14,6 +14,12 @@
 		CA06644C21239B8E00468CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA06644A21239B8E00468CD3 /* LaunchScreen.storyboard */; };
 		CA06645721239B8E00468CD3 /* twikeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06645621239B8E00468CD3 /* twikeyboardTests.swift */; };
 		CA06646221239B8E00468CD3 /* twikeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06646121239B8E00468CD3 /* twikeyboardUITests.swift */; };
+		CA06647621239BF100468CD3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06647521239BF100468CD3 /* KeyboardViewController.swift */; };
+		CA06647A21239BF100468CD3 /* twi.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA06647321239BF100468CD3 /* twi.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA06648021239E6A00468CD3 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA06647F21239E6A00468CD3 /* KeyboardView.xib */; };
+		CA0664822123A0A700468CD3 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0664812123A0A600468CD3 /* View.xib */; };
+		CA0664852123B18F00468CD3 /* pressed shift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA0664832123B18E00468CD3 /* pressed shift.jpeg */; };
+		CA0664862123B18F00468CD3 /* unpressed shift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA0664842123B18F00468CD3 /* unpressed shift.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,28 @@
 			remoteGlobalIDString = CA06643D21239B8D00468CD3;
 			remoteInfo = twikeyboard;
 		};
+		CA06647821239BF100468CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA06643621239B8D00468CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA06647221239BF100468CD3;
+			remoteInfo = twi;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA06647E21239BF100468CD3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA06647A21239BF100468CD3 /* twi.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CA06643E21239B8D00468CD3 /* twikeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twikeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +74,13 @@
 		CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twikeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA06646121239B8E00468CD3 /* twikeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twikeyboardUITests.swift; sourceTree = "<group>"; };
 		CA06646321239B8E00468CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA06647321239BF100468CD3 /* twi.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = twi.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA06647521239BF100468CD3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		CA06647721239BF100468CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA06647F21239E6A00468CD3 /* KeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		CA0664812123A0A600468CD3 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = ../../View.xib; sourceTree = "<group>"; };
+		CA0664832123B18E00468CD3 /* pressed shift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pressed shift.jpeg"; path = "../../pressed shift.jpeg"; sourceTree = "<group>"; };
+		CA0664842123B18F00468CD3 /* unpressed shift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "unpressed shift.jpeg"; path = "../../unpressed shift.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA06647021239BF100468CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +121,7 @@
 				CA06644021239B8D00468CD3 /* twikeyboard */,
 				CA06645521239B8E00468CD3 /* twikeyboardTests */,
 				CA06646021239B8E00468CD3 /* twikeyboardUITests */,
+				CA06647421239BF100468CD3 /* twi */,
 				CA06643F21239B8D00468CD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +132,7 @@
 				CA06643E21239B8D00468CD3 /* twikeyboard.app */,
 				CA06645221239B8E00468CD3 /* twikeyboardTests.xctest */,
 				CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */,
+				CA06647321239BF100468CD3 /* twi.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +168,19 @@
 			path = twikeyboardUITests;
 			sourceTree = "<group>";
 		};
+		CA06647421239BF100468CD3 /* twi */ = {
+			isa = PBXGroup;
+			children = (
+				CA0664832123B18E00468CD3 /* pressed shift.jpeg */,
+				CA0664842123B18F00468CD3 /* unpressed shift.jpeg */,
+				CA0664812123A0A600468CD3 /* View.xib */,
+				CA06647521239BF100468CD3 /* KeyboardViewController.swift */,
+				CA06647721239BF100468CD3 /* Info.plist */,
+				CA06647F21239E6A00468CD3 /* KeyboardView.xib */,
+			);
+			path = twi;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +191,12 @@
 				CA06643A21239B8D00468CD3 /* Sources */,
 				CA06643B21239B8D00468CD3 /* Frameworks */,
 				CA06643C21239B8D00468CD3 /* Resources */,
+				CA06647E21239BF100468CD3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA06647921239BF100468CD3 /* PBXTargetDependency */,
 			);
 			name = twikeyboard;
 			productName = twikeyboard;
@@ -181,6 +239,23 @@
 			productReference = CA06645D21239B8E00468CD3 /* twikeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CA06647221239BF100468CD3 /* twi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06647B21239BF100468CD3 /* Build configuration list for PBXNativeTarget "twi" */;
+			buildPhases = (
+				CA06646F21239BF100468CD3 /* Sources */,
+				CA06647021239BF100468CD3 /* Frameworks */,
+				CA06647121239BF100468CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twi;
+			productName = twi;
+			productReference = CA06647321239BF100468CD3 /* twi.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +277,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = CA06643D21239B8D00468CD3;
 					};
+					CA06647221239BF100468CD3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = CA06643921239B8D00468CD3 /* Build configuration list for PBXProject "twikeyboard" */;
@@ -220,6 +298,7 @@
 				CA06643D21239B8D00468CD3 /* twikeyboard */,
 				CA06645121239B8E00468CD3 /* twikeyboardTests */,
 				CA06645C21239B8E00468CD3 /* twikeyboardUITests */,
+				CA06647221239BF100468CD3 /* twi */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +325,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA06647121239BF100468CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0664822123A0A700468CD3 /* View.xib in Resources */,
+				CA0664852123B18F00468CD3 /* pressed shift.jpeg in Resources */,
+				CA06648021239E6A00468CD3 /* KeyboardView.xib in Resources */,
+				CA0664862123B18F00468CD3 /* unpressed shift.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +367,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA06646F21239BF100468CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06647621239BF100468CD3 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +387,11 @@
 			isa = PBXTargetDependency;
 			target = CA06643D21239B8D00468CD3 /* twikeyboard */;
 			targetProxy = CA06645E21239B8E00468CD3 /* PBXContainerItemProxy */;
+		};
+		CA06647921239BF100468CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA06647221239BF100468CD3 /* twi */;
+			targetProxy = CA06647821239BF100468CD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,8 +532,10 @@
 		CA06646721239B8E00468CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN2SAA74D2;
 				INFOPLIST_FILE = twikeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,8 +551,10 @@
 		CA06646821239B8E00468CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN2SAA74D2;
 				INFOPLIST_FILE = twikeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +645,44 @@
 			};
 			name = Release;
 		};
+		CA06647C21239BF100468CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN2SAA74D2;
+				INFOPLIST_FILE = twi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboard.twi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA06647D21239BF100468CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN2SAA74D2;
+				INFOPLIST_FILE = twi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blakkninja.twikeyboard.twi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +718,15 @@
 			buildConfigurations = (
 				CA06646D21239B8E00468CD3 /* Debug */,
 				CA06646E21239B8E00468CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA06647B21239BF100468CD3 /* Build configuration list for PBXNativeTarget "twi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA06647C21239BF100468CD3 /* Debug */,
+				CA06647D21239BF100468CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
